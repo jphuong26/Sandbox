@@ -5,8 +5,8 @@
 
 class Foo {
 public:
-  virtual ~Foo() {
-    std::cout << "Foo destructor" << std::endl;
+	virtual ~Foo() {
+		std::cout << "Foo destructor" << std::endl;
 	}
 };
 
