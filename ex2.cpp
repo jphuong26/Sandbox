@@ -9,17 +9,17 @@
 
 class Person {
 public:
-  Person(std::size_t age) {
-    m_age = age;
-  }
+	Person(std::size_t age) {
+		m_age = age;
+	}
 	
-  std::size_t getAge() const {
-    return m_age;
-  }	
+	std::size_t getAge() const {
+		return m_age;
+	}	
 
-  void setAge(std::size_t& age) {
-    m_age = age;
-  }
+	void setAge(std::size_t& age) {
+		m_age = age;
+	}
   
 private:
 	std::size_t m_age;
