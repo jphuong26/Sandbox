@@ -1,5 +1,5 @@
 // Making the parent destructor virtual will execute both destructors when 
-// delete is called on the instance of the derived class.
+// delete is called on the instance of the derived class, which prevents undefined behaviour.
 
 #include <iostream>
 
