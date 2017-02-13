@@ -38,5 +38,7 @@ int main() {
 	std::cout << s1->area() << std::endl;	
 	Shape* s2 = new Rectangle(6,11);
 	std::cout << s2->area() << std::endl;	
+	delete s1;
+	delete s2;
 	return EXIT_SUCCESS;
 }
