@@ -48,7 +48,7 @@ public:
 		return *this;
 	}
 
-	char* getResource() {
+	char* getResource() const {
 		return m_resource;
 	}
 
